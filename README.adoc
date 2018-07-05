@@ -1,6 +1,6 @@
 = git configurations
 
-.file `.gitconfig`
+.files: `~/.gitconfig`, `${repoDir}/.git/config`
 [source]
 ----
 [alias]
