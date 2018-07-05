@@ -1,6 +1,6 @@
 = git configurations
 
-.gitconfig
+..gitconfig
 [source]
 ----
 [alias]
