@@ -1,0 +1,22 @@
+= git configurations
+
+.gitconfig
+[source]
+----
+[alias]
+        cfg = config --global --edit
+        l = log --pretty=format:\"%Cred%h%Creset %C(Yellow)%an%Creset %C(white)%ar%Creset: %C(cyan)%s%Creset\"
+        f = fetch -p --all
+        b = branch
+        s = status
+        gf = fetch -p --all
+        pl = pull origin master
+        rb = rebase origin/master
+        rs = reset --hard origin/master
+        co = checkout
+        cb = checkout -b
+        cam = commit --amend --no-edit
+        pso = push origin
+        psf = push --force
+        chmod = update-index --chmod=+x
+----
